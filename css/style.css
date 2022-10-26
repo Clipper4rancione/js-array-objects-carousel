@@ -1,0 +1,57 @@
+
+/* UTILITY */
+
+.hide{
+    display: none;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-img{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+.container-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.container-thumbs{
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.container-thumbs img{
+    width: calc(100% / 5);
+}
+.arrow{
+    position: absolute;
+    font-size: 1.5rem;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2px;
+    border-radius: 50px;
+    top: 50px;
+
+    cursor: pointer;
+    
+}
+.arrow.left{
+    left: 5px;
+}
+.arrow.right{
+    right: 5px;
+}
