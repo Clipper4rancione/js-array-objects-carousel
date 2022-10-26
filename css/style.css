@@ -4,7 +4,12 @@
 .hide{
     display: none;
 }
-
+.item{
+    display: none;
+}
+.active{
+    display: block;
+}
 .wrapper{
     height: 100vh;
     display: flex;
@@ -32,6 +37,7 @@
 }
 .container-thumbs img{
     width: calc(100% / 5);
+    object-fit: cover;
 }
 .arrow{
     position: absolute;
